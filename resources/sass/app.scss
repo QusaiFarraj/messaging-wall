@@ -1,0 +1,145 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.readers-comment .media {
+  padding: 15px 0 0;
+}
+
+.add-a-message {
+  //text-transform: uppercase;
+  max-width: 50%;
+  text-align: center;
+}
+
+.comment-form {
+  background: #ebebeb;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+.form-control {
+  border-radius: 0;
+  height: 50px;
+  box-shadow: 0px 0px;
+}
+
+.form-section {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.comment-form .form-group {
+  width: 100%;
+
+  background: #fff;
+  margin: 0 0 10px 0;
+
+}
+
+.comment-form .form-control {
+  border: 0px;
+}
+
+.comment-form textarea.form-control {
+  min-height: 100px;
+}
+
+.comment-form .btn-submit {
+  background: #f72300;
+  padding: 10px 20px;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+@media (max-width: 767px) {
+  .comment-form .form-group {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .comment-form .form-group.comment {
+    width: 100%;
+  }
+  .comment-form .btn-submit {
+    margin: 0;
+  }
+}
+
+.readers-comment{
+  padding:20px 0;
+}
+.reply{
+  padding-bottom:0px !important;
+  margin-bottom:0;
+}
+.comment-article-social{
+  padding:10px 0 0;
+  text-align:right;
+}
+.comment-article-social i{
+  width:20px;
+  height:20px;
+  line-height:20px;
+  background:#ebebeb;
+  text-align:center;
+  color:#747474;
+}
+.comment-article-social .reply-ic{
+  background:#ff6102;
+  padding:2px 5px;
+  vertical-align:top;
+  color:#fff;
+  font-size:12px;
+
+}
